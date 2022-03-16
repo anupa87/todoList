@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(91, 207, 202);
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.banner {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+#displayDate {
+  font-size: 16px;
+  padding-top: 0.5rem;
+}
+
+main {
+  width: 100%;
+  height: 70vh;
+  background-color: silver;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.infoSection {
+  width: 25%;
+  padding-top: 2rem;
+}
+.todoSection {
+  width: 50%;
+  padding-top: 2rem;
+  border-right: 1px solid rgb(207, 202, 202);
+  border-left: 1px solid rgb(207, 202, 202);
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+#addTask {
+  width: 80%;
+  height: 40px;
+  color: rgb(104, 94, 94);
+  border: 1px solid snow;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  background-color: turquoise;
+  border: 1px solid snow;
+  border-radius: 3px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.todoListItem {
+  width: 60%;
+  height: 40px;
+  padding: 5px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.markedDone {
+  background-color: yellowgreen;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.delBtn {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+.btn-clear {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(120, 202, 120);
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.completedSection {
+  padding-top: 2rem;
+  width: 25%;
+}
+
+footer {
+  background-color: rgb(32, 30, 30);
+  width: 100%;
+  height: 5vh;
+  color: dimgrey;
+  text-align: center;
+  font-size: 12px;
+  padding: 3rem;
+}

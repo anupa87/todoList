@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="todo.css" />
+    <title>Anupa-Todo-App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="banner">
+        <h1>My Day</h1>
+        <h2 id="displayDate">Display day and date</h2>
+      </header>
+      <main>
+        <div class="infoSection"></div>
+        <div class="todoSection">
+          <h2>To-do List</h2>
+          <div class="form">
+            <form>
+              <input type="text" id="addTask" placeholder="Add a task...." />
+              <button class="btn" type="submit">
+                <i class="fas fa-plus"></i>
+              </button>
+            </form>
+          </div>
+          <div>
+            <ul id="todoList"></ul>
+          </div>
+          <div>
+            <button class="btn btn-clear" onclick="clearAllTodo()">
+              Clear All
+            </button>
+          </div>
+        </div>
+        <div class="completedSection"></div>
+      </main>
+    </div>
+    <div>
+      <footer>&copy My To-do list 2022</footer>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
