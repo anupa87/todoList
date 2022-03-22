@@ -101,6 +101,7 @@ ul {
 
 .markedDone {
   background-color: yellowgreen;
+  text-decoration: line-through;
 }
 
 .checkbox {

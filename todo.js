@@ -32,7 +32,9 @@ const input = document.getElementById("addTask");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-  listMaker(input.value);
+  if (input.value !== "") {
+    listMaker(input.value);
+  }
   input.value = "";
 });
 
